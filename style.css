@@ -169,12 +169,12 @@ header {
 .pricetable, th , td {
 
     margin-top: 27px;
-    border: 3px solid rgb(49, 136, 250);
+    
     border-collapse: collapse;
-    height: 80px;
+    height: 35px;
     width: 800px;
-    font-weight: 800;
-    text-align: center;
+    font-weight: 540;
+    
    
 }
 .preislisth1 {
@@ -183,3 +183,99 @@ header {
     
 }
 
+
+
+.item1 { grid-area: bir; }
+.item2 { grid-area: iki; }
+.item3 { grid-area: uc; }
+.item4 { grid-area: dort; }
+.item5 { grid-area: bes; }
+.item6 { grid-area: alti; }
+.item7 { grid-area: yedi; }
+.item8 { grid-area: sekiz; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'bir bir iki iki uc uc dort dort'
+    'bes bes alti alti yedi yedi sekiz sekiz';
+  grid-gap: 10px;
+  padding: 10px;
+  margin-top: 0px;
+  height: 500px;
+  margin-left: 210px;
+  display: inline block;
+  position: absolute;
+ 
+
+}
+
+.grid-container > div {
+
+  text-align: left;
+  font-size: 14px;
+  margin-bottom: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.Önerilen {
+
+    margin-left: 260px;
+    margin-top: 30px;
+    font-size: x-large;
+    font-weight: inherit;
+    display: inline-block;
+}
+
+.logo{
+
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 40px;
+
+
+}
+
+.input {
+    display: inline-block;
+    width: 700px;
+    height: 25px;
+    margin-left: 250px;
+    margin-top: 0px;
+    border-radius: 5%;
+    
+}
+
+.button {
+
+    display: inline-block;
+    margin-left: 0px;
+    width: 70px;
+    height: 30px;
+}
+
+.sol {
+
+    display: inline-block;
+    width: 100px;
+    height: 800px;
+    border: solid blue;
+    margin-top: 5px;
+    position: absolute;
+}
+
+.table {
+
+    display: flex;
+    width: 200px;
+    height: 30vw;
+    position: absolute;
+    margin-left: 0px;
+    font-size: 17px;
+    font-weight: 570;
+    
+    
+    
+}
